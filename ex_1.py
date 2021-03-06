@@ -7,8 +7,7 @@ random.seed(1059310)
 def makeArray(len,n):
     return [random.randint(-n, n) for _ in range(len)]
 
-print('random testerino')
-print('random testerino 2')
+
 
 
 
