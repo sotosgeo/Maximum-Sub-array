@@ -9,6 +9,7 @@ def makeArray(len,n):
 
 print('random testerino')
 print('random testerino 2')
+print('random testerino 3')
 
 
 data_set_1 = makeArray(5000,100)
