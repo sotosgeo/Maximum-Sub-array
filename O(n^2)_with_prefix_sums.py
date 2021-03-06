@@ -22,7 +22,7 @@ def MaxSubFaster(A):
     max1 = 0
     for j in range(n):
         for k in range(j,n):
-            s = prefix_sums[k] - prefix_sums[j-1]
+            s = prefix_sums[k] - prefix_sums[j]
             if s > max1:
                 max1 = s
                 max_1_start = j
