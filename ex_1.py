@@ -8,6 +8,7 @@ def makeArray(len,n):
     return [random.randint(-n, n) for _ in range(len)]
 
 print('random testerino')
+print('random testerino 2')
 
 
 data_set_1 = makeArray(5000,100)
