@@ -11,8 +11,8 @@ def makeArray(len,n):
 
 
 
-data_set_1 = makeArray(5000,100)
-data_set_2 = makeArray(10000,100)
+data_set_1 = makeArray(500,100)
+data_set_2 = makeArray(1000,100)
 
 
 
@@ -39,7 +39,8 @@ def MaxSubArraySlow(A):
 
 
 
-#result_of_data_set_1 = MaxSubArraySlow(data_set_1)
-#result_of_data_set_2 = MaxSubArraySlow(data_set_2)
-#print("Data Set 1 max:",result_of_data_set_1[0],"starting in position",result_of_data_set_1[1],"and ending in position ",result_of_data_set_1[2],"in",result_of_data_set_1[3],"sec")
-#print("Data Set 2 max:",result_of_data_set_2[0],"starting in position",result_of_data_set_2[1],"and ending in position ",result_of_data_set_2[2],"in",result_of_data_set_2[3],"sec")
+result_of_data_set_1 = MaxSubArraySlow(data_set_1)
+result_of_data_set_2 = MaxSubArraySlow(data_set_2)
+print("O(n^3) with 500 and 100 elements")
+print("Data Set 1 max:",result_of_data_set_1[0],"starting in position",result_of_data_set_1[1],"and ending in position ",result_of_data_set_1[2],"in",result_of_data_set_1[3],"sec")
+print("Data Set 2 max:",result_of_data_set_2[0],"starting in position",result_of_data_set_2[1],"and ending in position ",result_of_data_set_2[2],"in",result_of_data_set_2[3],"sec")
