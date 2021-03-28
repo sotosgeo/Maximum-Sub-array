@@ -31,7 +31,7 @@ def MaxSubFaster_no_sums(A):
 
 result_of_data_set_1 = MaxSubFaster_no_sums(data_set_1)
 result_of_data_set_2 = MaxSubFaster_no_sums(data_set_2)
-print("O(n^2) without prefix sums - 2000 and 4000")
+print("O(n^2) without prefix sums - 8000 and 16000")
 print("Data Set 1 max:",result_of_data_set_1[0],"starting in position",result_of_data_set_1[1],"and ending in position ",result_of_data_set_1[2],"in",result_of_data_set_1[3],"sec")
 print("Data Set 2 max:",result_of_data_set_2[0],"starting in position",result_of_data_set_2[1],"and ending in position ",result_of_data_set_2[2],"in",result_of_data_set_2[3],"sec")
 

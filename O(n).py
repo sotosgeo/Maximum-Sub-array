@@ -38,7 +38,7 @@ result_of_data_set_1 = MaxSubFastest(data_set_1)
 result_of_data_set_2 = MaxSubFastest(data_set_2)
 
 
-print("O(n) - Kadane's Algorithm")
+print("O(n) - Kadane's Algorithm - 10000000 and 20000000")
 print("Data Set 1 max:",result_of_data_set_1[0],"starting in position",result_of_data_set_1[1],"and ending in position ",result_of_data_set_1[2],"in",result_of_data_set_1[3],"sec")
 print("Data Set 2 max:",result_of_data_set_2[0],"starting in position",result_of_data_set_2[1],"and ending in position ",result_of_data_set_2[2],"in",result_of_data_set_2[3],"sec")
 

@@ -49,7 +49,7 @@ t2 = timeit.default_timer()
 result_of_data_set_2 = MaxSubEvenFaster(data_set_2,0,len(data_set_2)-1)
 t3 = timeit.default_timer()
 dt2 = t3-t2
-print("O(nlogn) - Divide and Conquer")
+print("O(nlogn) - Divide and Conquer - 1000000 and 2000000")
 print("Data Set 1 max:",result_of_data_set_1,"in",dt1,"sec")
 print("Data Set 2 max:",result_of_data_set_2,"in",dt2,"sec")
 
